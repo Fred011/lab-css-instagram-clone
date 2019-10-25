@@ -4,7 +4,113 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ---- reset ---- */
+
+html {
+  font-size: 12px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: auto;
+  display: block;
 }
+
+.background {
+  background: #1c5380;
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+
+.button {
+  padding: 5px 20px;
+  font-size: 1.5rem;
+  background: #1c5380;
+}
+
+#home {
+  height: 15px;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+/* #logo {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: space-around;
+} */
+
+h2 {
+  color: #06365f;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.article {
+  width: 25%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: inherit;
+  padding: 10px 60px;
+  margin-top: 150px;
+}
+
+section div{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#downloads {
+  height: 65px;
+  width: auto;
+} 
+
+#phones {
+  height: 500px;
+  width: auto;
+  margin-top: 50px;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+  justify-content: center;;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+#copyright {
+  color: grey;
+}
+
+footer {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
